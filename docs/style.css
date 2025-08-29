@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background: radial-gradient(circle at top, #1a1a2e, #0f0c29, #000000);
+  color: white;
+}
+
+/* ⬛ Área principal do app */
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100dvh;
+  padding: 24px 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 26px;
+}
+
+/* Menu de botões */
+.menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Botões */
+.btn {
+  width: 100%;
+  background: linear-gradient(145deg, #2e2e54, #3c3c70);
+  border: none;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 0 12px rgba(120, 100, 255, 0.3);
+}
+
+.btn:hover {
+  background: linear-gradient(145deg, #4f4f80, #6969a3);
+  box-shadow: 0 0 16px rgba(190, 190, 255, 0.5);
+}
+
+/* Botão de instalar */
+#btnInstalar {
+  display: none;
+  width: 100%;
+  margin-top: 16px;
+  background: linear-gradient(145deg, #4b2d73, #5e3a8c);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(150, 100, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+#btnInstalar:hover {
+  background: linear-gradient(145deg, #6f49a5, #825bcc);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #cccccc;
+  margin-top: 32px;
+  padding-bottom: 16px;
+}
